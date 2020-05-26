@@ -18,18 +18,7 @@ Campo | Valor
 ----- | -----
 Classe | `<caminho completo da classe com pacotes>` <br> Exemplo: `pt.c08componentes.s20catalog.s10ds.DataSetComponent`
 Autores | Melanie N Soares
-Objetivo | tabela do jogo
-Interface | ITable
-
-# Componente Table
-## Interfaces
-  * Interfaces associados a esse componente:
-  
-Campo | Valor
------ | -----
-Classe | `<caminho completo da classe com pacotes>` <br> Exemplo: `pt.c08componentes.s20catalog.s10ds.DataSetComponent`
-Autores | Melanie N Soares
-Objetivo | Tratar dado do tabuleiro
+Objetivo | Tratar os dados do tabuleiro
 Interface | ITable
 
 # Componente Scoreboard
@@ -64,4 +53,20 @@ Classe | `<caminho completo da classe com pacotes>` <br> Exemplo: `pt.c08compone
 Autores | Melanie N Soares
 Objetivo | Simular e armazenar peças de um canhão
 Interface | ICanonLauncher
+
+
+
+## Detalhamento das Interfaces
+
+### Interface ITable
+
+Método | Objetivo
+-------| --------
+setTable | 
+updateTable |
+checkNeighbors|
+deletePieces|
+showTable|
+
+
 
