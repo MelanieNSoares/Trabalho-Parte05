@@ -68,5 +68,29 @@ checkNeighbors|
 deletePieces|
 showTable|
 
+### Interface IScoreBoard
+
+Método | Objetivo
+-------| --------
+updatePoints | 
+updateLevel |
+amountOfPieces|
+
+### Interface IPiece
+
+Método | Objetivo
+-------| --------
+calculateMovement|
+
+### Interface ICanonLauncher
+
+Método | Objetivo
+-------| --------
+setCanon | 
+getPiece |
+updateLauncher|
+
+
+
 
 
