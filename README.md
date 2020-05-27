@@ -10,6 +10,9 @@
 
 # Diagrama Geral de Componentes
 
+
+
+
 # Componente Table
 ## Interfaces
   * Interfaces associados a esse componente:
@@ -33,6 +36,25 @@ checkNeighbors|
 deletePieces|
 showTable|
 
+~~~
+public interface ITable {
+
+ public void setTable(int level);
+ public void updateTable();
+ public void checkNeighbors();
+ public void deletePieces();
+ public void showTable();
+ 
+}
+~~~
+
+
+
+
+
+
+
+
 # Componente Scoreboard
 
 ## Interfaces
@@ -53,6 +75,27 @@ Método | Objetivo
 updatePoints | 
 updateLevel |
 amountOfPieces|
+
+~~~
+public interface IScoreboard {
+ 
+ public void updatePoints(int points);
+ public void updateLevel(int level);
+ public void updateCount(int count);
+ public int getPoints();
+ public int getLevel();
+ public int getCount();
+ 
+}
+~~~
+
+
+
+
+
+
+
+
 
 
 
@@ -75,6 +118,15 @@ Método | Objetivo
 -------| --------
 calculateMovement|
 
+~~~
+public interface IPiece {
+ public int[] calculateMovement(Table table);
+ }
+~~~
+
+
+
+
 # Componente CanonLauncher
 ## Interfaces
   * Interfaces associados a esse componente:
@@ -95,6 +147,15 @@ Método | Objetivo
 setCanon | 
 getPiece |
 updateLauncher|
+
+~~~
+public interface ICanonLauncher {
+
+ public void setCanon();
+ public Piece getPiece();
+ public void updateLauncher();
+
+~~~
 
 
 
