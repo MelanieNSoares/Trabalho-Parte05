@@ -17,7 +17,7 @@
 ## Interfaces
   * Interfaces associados a esse componente:
   
-  ![ITable](Itable-comp.png)
+![ITable](Itable-comp.png)
   
 Campo | Valor
 ----- | -----
@@ -61,7 +61,8 @@ public interface ITable {
 
 ## Interfaces
   * Interfaces associados a esse componente:
-  ![IScoreboard](IScore-comp.png)
+  
+![IScoreboard](IScore-comp.png)
   
 Campo | Valor
 ----- | -----
@@ -108,7 +109,8 @@ public interface IScoreboard {
 # Componente Piece
 ## Interfaces
   * Interfaces associados a esse componente:
-  ![IPiece](Ipiece-comp.png)
+  
+![IPiece](Ipiece-comp.png)
   
 Campo | Valor
 ----- | -----
@@ -137,7 +139,8 @@ public interface IPiece {
 # Componente CanonLauncher
 ## Interfaces
   * Interfaces associados a esse componente:
-  ![ICanonLauncher](ICanon-comp.png)
+  
+![ICanonLauncher](ICanon-comp.png)
   
 Campo | Valor
 ----- | -----
