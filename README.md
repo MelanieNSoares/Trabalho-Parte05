@@ -30,11 +30,11 @@ Interface | ITable
 
 Método | Objetivo
 -------| --------
-setTable | 
-updateTable |
-checkNeighbors|
-deletePieces|
-showTable|
+setTable | Inicializar um tabuleiro pre feito de acordo com o nível atual do jogador
+updateTable | Encurtar o número de linhas do tabuleiro ao fazer jogadas
+checkNeighbors| Verificar a vizinhaca da peça lançada afim de determinar o novo estado do tabuleiro
+deletePieces| Remover peças do tabuleiro
+showTable| Imprimir o tabuleiro na tela
 
 ~~~
 public interface ITable {
@@ -72,9 +72,12 @@ Interface | IScoreboard
 
 Método | Objetivo
 -------| --------
-updatePoints | 
-updateLevel |
-amountOfPieces|
+updatePoints | Atualizar os pontos do jogador
+updateLevel | Atualizar o nível atual do jogador
+updateCount| Atualizar o número de peças no tabuleiro
+getPoints | Retornar os pontos do jogador
+getLevel | Retornar o nível do jogador
+getCount | Retornar o numero de peças
 
 ~~~
 public interface IScoreboard {
@@ -116,7 +119,7 @@ Interface | IPiece
 
 Método | Objetivo
 -------| --------
-calculateMovement|
+calculateMovement| Calcular o local no tabuleiro que uma peça lançada cairá
 
 ~~~
 public interface IPiece {
@@ -144,16 +147,16 @@ Interface | ICanonLauncher
 
 Método | Objetivo
 -------| --------
-setCanon | 
-getPiece |
-updateLauncher|
+setCanon | Inicializar um vetor queue que armazena as peças a serem lançadas
+getPiece | Retornar uma peça
+updateCanon| Atualizar o vetor queue
 
 ~~~
 public interface ICanonLauncher {
 
  public void setCanon();
  public Piece getPiece();
- public void updateLauncher();
+ public void updateCanon();
 
 ~~~
 
