@@ -6,16 +6,18 @@
 # Descrição Resumido do Projeto
 * Criação de um jogo de niveis utilizando conceitos de programação orientado a objetos e 'cellular automata' para um trabalho de Unicamp
 
-# Vídeo do Projeto
-
 # Diagrama Geral de Componentes
 
+
+![Component Diagram](component-diagram.png)
 
 
 
 # Componente Table
 ## Interfaces
   * Interfaces associados a esse componente:
+  
+  ![ITable](Itable-comp.png)
   
 Campo | Valor
 ----- | -----
@@ -59,6 +61,7 @@ public interface ITable {
 
 ## Interfaces
   * Interfaces associados a esse componente:
+  ![IScoreboard](IScore-comp.png)
   
 Campo | Valor
 ----- | -----
@@ -105,6 +108,7 @@ public interface IScoreboard {
 # Componente Piece
 ## Interfaces
   * Interfaces associados a esse componente:
+  ![IPiece](Ipiece-comp.png)
   
 Campo | Valor
 ----- | -----
@@ -133,6 +137,7 @@ public interface IPiece {
 # Componente CanonLauncher
 ## Interfaces
   * Interfaces associados a esse componente:
+  ![ICanonLauncher](ICanon-comp.png)
   
 Campo | Valor
 ----- | -----
@@ -157,6 +162,8 @@ public interface ICanonLauncher {
  public void setCanon();
  public Piece getPiece();
  public void updateCanon();
+ 
+}
 
 ~~~
 
