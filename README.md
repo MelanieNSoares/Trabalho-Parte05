@@ -1,7 +1,7 @@
 # Projeto Trabalho
 
 # Equipe
-* Melanie Nellen Soares RA: 241997
+* Melanie N Soares RA: 241997
 
 # Descrição Resumido do Projeto
 * Criação de um jogo de niveis utilizando conceitos de programação orientado a objetos e 'cellular automata' para um trabalho de Unicamp
@@ -22,7 +22,7 @@
   
 Campo | Valor
 ----- | -----
-Classe | `<caminho completo da classe com pacotes>` <br> Exemplo: `pt.c08componentes.s20catalog.s10ds.DataSetComponent`
+Classe | component.Table
 Autores | Melanie N Soares
 Objetivo | Tratar os dados do tabuleiro
 Interface | ITable
@@ -68,7 +68,7 @@ public interface ITable {
   
 Campo | Valor
 ----- | -----
-Classe | `<caminho completo da classe com pacotes>` <br> Exemplo: `pt.c08componentes.s20catalog.s10ds.DataSetComponent`
+Classe | components.Scoreboard
 Autores | Melanie N Soares
 Objetivo | Armazena e trata dados do jogo e jogador 
 Interface | IScoreboard
@@ -117,7 +117,7 @@ public interface IScoreboard {
   
 Campo | Valor
 ----- | -----
-Classe | `<caminho completo da classe com pacotes>` <br> Exemplo: `pt.c08componentes.s20catalog.s10ds.DataSetComponent`
+Classe | components.Piece
 Autores | Melanie N Soares
 Objetivo | Tratar as peças presentes no jogo
 Interface | IPiece
@@ -149,7 +149,7 @@ public interface IPiece {
   
 Campo | Valor
 ----- | -----
-Classe | `<caminho completo da classe com pacotes>` <br> Exemplo: `pt.c08componentes.s20catalog.s10ds.DataSetComponent`
+Classe | components.CanonLauncher
 Autores | Melanie N Soares
 Objetivo | Simular e armazenar peças de um canhão
 Interface | ICanonLauncher
