@@ -14,10 +14,11 @@
 
 
 # Componente Table
+![table](Ctable.png)
 ## Interfaces
   * Interfaces associados a esse componente:
   
-![ITable](Itable-comp.png)
+![ITable](ITABLE.png)
   
 Campo | Valor
 ----- | -----
@@ -58,6 +59,7 @@ public interface ITable {
 
 
 # Componente Scoreboard
+![scoreboard](Cscoreboard.png)
 
 ## Interfaces
   * Interfaces associados a esse componente:
@@ -107,6 +109,7 @@ public interface IScoreboard {
 
 
 # Componente Piece
+![piece](Cpiece.png)
 ## Interfaces
   * Interfaces associados a esse componente:
   
@@ -137,6 +140,8 @@ public interface IPiece {
 
 
 # Componente CanonLauncher
+![canon](Ccanon.png)
+
 ## Interfaces
   * Interfaces associados a esse componente:
   
