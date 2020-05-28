@@ -22,7 +22,7 @@
   
 Campo | Valor
 ----- | -----
-Classe | component.Table
+Classe | components.Table
 Autores | Melanie N Soares
 Objetivo | Tratar os dados do tabuleiro
 Interface | ITable
