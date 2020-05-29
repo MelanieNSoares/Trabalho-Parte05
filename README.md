@@ -4,7 +4,7 @@
 * Melanie N Soares RA: 241997
 
 # Descrição Resumido do Projeto
-* Criação de um jogo de niveis utilizando conceitos de programação orientado a objetos e 'cellular automata' para um trabalho de Unicamp
+* Criação de um jogo de niveis utilizando conceitos de programação orientado a objetos e 'cellular automata' para um trabalho de Unicamp. O jogo consistirá de um canhão controlado pelo jogador que lança peças de diferentes tipos. O jogo terá um tabuleiro pre-determinado com peças, e o objetivo será juntar pelo menos 3 peças do mesmo tipo e assim eliminar todas as peças para passar de fase e arrecatar pontos. Diferentes combinações pode ter efeitos indesejáveis. Ao realizar jogadas, uma barra do topo começa a encurtar o tabuleiro e se não houver mais espaço para o canhão lançar peças, perde-se o jogo.
 
 # Diagrama Geral de Componentes
 
